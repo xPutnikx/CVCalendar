@@ -498,8 +498,8 @@ extension CVCalendarWeekContentViewController {
             default: break
             }
         }
-
-        updateSelection()
+//this method affect presentedDate, instead of keep last selected data it moves presentedDate      
+//        updateSelection()
         pageLoadingEnabled = true
         direction = .none
     }
